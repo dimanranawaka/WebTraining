@@ -4,16 +4,40 @@
     <meta charset="UTF-8">
     <title>Document</title>
   <style type =text/css>
-      /*Sibling Selector*/
-      p~h1{
-          color:red
+      /*nth Child Selector*/
+      /*li:nth-child(1){*/
+      /*    color:blue;*/
+      /*}*/
+
+      /*li:first-child{*/
+      /*    color:blue;*/
+      /*}*/
+
+      /*li:nth-child(5){*/
+      /*    color: blue;*/
+      /*}*/
+
+      /*li:last-child{*/
+      /*    color:blue;*/
+      /*}*/
+
+      /*li:nth-child(odd){*/
+      /*    color:blue;*/
+      /*}*/
+
+      li:nth-child(even){
+          color:red;
       }
   </style>
 
 </head>
 <body>
-<p>Lorem ispum shits</p>
-<h1>Diman Ranawaka</h1>
-<h1>Galle</h1>
+<ul>
+    <li>Java</li>
+    <li>C#</li>
+    <li>Php</li>
+    <li>Ruby</li>
+    <li>Ruby</li>
+</ul>
 </body>
 </html>
