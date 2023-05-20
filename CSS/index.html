@@ -5,19 +5,24 @@
 
     <title>Document</title>
   <style type =text/css>
-      /*Positions(absolute,fixed,relative,sticky)*/
+      /Overflow/
       .outer{
           height: 250px;
           width: 500px;
           border: 1px solid red;
           position: relative;
+          /*overflow: scroll;*/
+          /*overflow-x: scroll;*/
+          text-align: justify;
+          overflow: auto;
       }
-      .inner{
-          width: 150px;
-          height: 150px;
-          background-color: green;
-          right:0;
-          position: absolute;
+      .outer::-webkit-scrollbar{
+          width: 10px;
+          background-color: blue;
+      }
+      .outer::-webkit-scrollbar-thumb{
+          background-color: red;
+          border-radius: 10px;
       }
 
   </style>
@@ -25,9 +30,8 @@
 </head>
 <body style="height: 5000px">
 <div class="outer">
-    <div class="inner">
-
-    </div>
+   Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+    Animi commodi consequuntur cupiditate, molestiae neque optio recusandae repudiandae tenetur ut vitae?
 </div>
 </body>
 </html>
