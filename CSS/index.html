@@ -4,36 +4,19 @@
     <meta charset="UTF-8">
     <title>Document</title>
     <style type="text/css">
-
-        .outer{
-            width: 500px;
-            height: 150px;
-            border: 2px solid red;
-            /*overflow-x: scroll;*/
-            /*overflow-y: scroll;*/
-            /*text-align: center;*/
-            text-align: justify;
-            overflow: auto;
-        }
-        .outer::-webkit-scrollbar{
-            width: 10px;
-            background-color: gray;
-        }
-        .outer::-webkit-scrollbar-thumb{
-            background-color: red;
-            border-radius: 10px;
-        }
+   /* hover,radius, clip-path */
+            .box{
+                background-color: green;
+                width: 150px;
+                height: 150px;
+                cursor: pointer;
+            }
+            .box:hover{
+                background-color: red;
+            }
     </style>
 </head>
 <body style="height: 50000px">
-    <div class="outer">
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab amet consectetur deserunt dolorem ducimus,
-        ea et ex fugit id illum in ipsa ipsam minima molestiae molestias nesciunt nobis numquam odit placeat porro
-        sapiente similique suscipit tenetur unde velit veritatis vero vitae? Incidunt nisi porro quidem reiciendis?
-        Alias beatae debitis dolor dolores doloribus, ducimus expedita, illo maiores maxime mollitia nemo neque nulla
-        odit pariatur provident quibusdam quidem reiciendis repudiandae, sit soluta. Aliquam deleniti doloribus enim ex
-        excepturi fugiat, hic iusto laboriosam libero nihil nulla, officia quia repellat saepe, tempora totam vitae.
-        Adipisci architecto exercitationem maxime sit vel. Dolorum enim illum voluptas.
-    </div>
+    <div class="box"></div>
 </body>
 </html>
