@@ -1,6 +1,16 @@
-.btn{
-    background-color: red!important;
+/*media query*/
+.outer{
+    width: 100vw;
+    height: 250px;
+    border: 1px solid red;
 }
-.btn-primary{
-    background-color: yellow;
+.inner{
+    /*.............*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    height: 200px;
+    /*...............*/
+
 }
