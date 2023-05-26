@@ -1,28 +1,11 @@
 /*media query*/
-.outer{
-    width: 100vw;
-    height: auto;
-    border: 1px solid red;
-}
+
 .inner{
     /*.............*/
-    /*display: flex;*/
+    display: flex;
     justify-content: center;
     align-items: center;
     color: white;
     height: 200px;
-    width: 25%;
-    display: inline-block;
     /*...............*/
-}
-@media (max-width: 768px) {
-    .inner{
-        width: 50%;
-        background-color: red!important;
-    }
-}@media (max-width: 500px) {
-    .inner{
-        width: 100%;
-        background-color: green!important;
-    }
 }
