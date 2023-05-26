@@ -1,22 +1,6 @@
 .btn{
-    padding: 8px 15px;
-    color: white;
-    border: none;
-    border-radius: 3px;
-    cursor: pointer;
+    background-color: red!important;
 }
-.btn:hover{
-    cursor: pointer;
-}
-.btn-submit{
-    background-color: #8e44ad;
-}
-.btn-submit:hover{
-    background-color: #2c3e50;
-}
-.btn-danger{
-    background-color: #e74c3c;
-}
-.btn-danger:hover{
-    background-color: #c0392b;
+.btn-primary{
+    background-color: yellow;
 }
