@@ -18,5 +18,11 @@
 @media (max-width: 768px) {
     .inner{
         width: 50%;
+        background-color: red!important;
+    }
+}@media (max-width: 500px) {
+    .inner{
+        width: 100%;
+        background-color: green!important;
     }
 }
