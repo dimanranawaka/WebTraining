@@ -4,16 +4,23 @@
     <meta charset="UTF-8">
     <title>Document</title>
     <style type="text/css">
-        /*Display*/
-       div{
-           background-color: brown;
-           display: inline-block;
-           width: 500px;
-       }
+        /*Float*/
+        .box{
+            border: 1px solid brown;
+            width: 250px;
+            height: 250px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .box-1{
+            float: right;
+        }
     </style>
 </head>
 <body style="height: 50000px">
-    <div>Diman</div>
-    <div>Diman</div>
+    <div class="box-1 box">1</div>
+    <div class="box-2 box">2</div>
+
 </body>
 </html>
