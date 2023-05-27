@@ -3,6 +3,7 @@
     width: 100%;
     height: 40px;
     border: 1px solid red;
+    background-color: rgba(52,73,94,0.2);
 }
 .top-inner{
     border:1px solid red;
