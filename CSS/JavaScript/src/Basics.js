@@ -1,3 +1,12 @@
-let x=5;
-let y=3;
-console.log((x>=y)?'greater than':'less than');
+let gender=true; // Male
+let ans='Male';
+
+    // if(gender===true){
+    //     ans='Male';
+    //     console.log(ans);
+    // }else {
+    //     ans='FeMale';
+    //     console.log(ans);
+    // }
+
+console.log(ans=(gender===true)?'Male':'FeMale');
