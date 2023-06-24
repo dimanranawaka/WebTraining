@@ -13,5 +13,8 @@ let y=3;
 // let isGreaterThan = x>y;
 // console.log(isGreaterThan);
 
-let isGreaterThanOrEqual = x>=y;
-console.log(isGreaterThanOrEqual);
+// let isGreaterThanOrEqual = x>=y;
+// console.log(isGreaterThanOrEqual);
+
+let isLessThanOrEqual = x<=y;
+console.log(isLessThanOrEqual);
