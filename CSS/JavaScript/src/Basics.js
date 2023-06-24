@@ -1,9 +1,8 @@
-let man ={
-    name: 'Diman',
-    age:50,
-    address:'Matara',
-    fav:[10,'dog'],
-    country:{code:94,alpha2:50}
+// hoisting
+var x = 50;
+console.log(x);
+if(true){
+    x=60;
+    console.log(x);
 }
-console.log(man);
-console.log(typeof man);
+console.log(x);
