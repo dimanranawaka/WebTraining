@@ -1,3 +1,3 @@
-let age;
-console.log(age);
-console.log(typeof age);
+let nimalData=null;
+console.log(nimalData);
+console.log(typeof nimalData);
