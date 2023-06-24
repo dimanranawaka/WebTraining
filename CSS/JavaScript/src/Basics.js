@@ -4,5 +4,8 @@ let y=3;
 // let isEqual=x==y;
 // console.log(isEqual);
 
-let isNotEqual=x!=y;
-console.log(isNotEqual);
+// let isNotEqual=x!=y;
+// console.log(isNotEqual);
+
+let isLessThan= x<y;
+console.log(isLessThan);
