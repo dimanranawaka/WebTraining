@@ -1,12 +1,4 @@
-let gender=true; // Male
-let ans='Male';
-
-    // if(gender===true){
-    //     ans='Male';
-    //     console.log(ans);
-    // }else {
-    //     ans='FeMale';
-    //     console.log(ans);
-    // }
-
-console.log(ans=(gender===true)?'Male':'FeMale');
+let x = 10;
+let y ='10';
+console.log(x==y); //Checks only the Value
+console.log(x===y); // Check both value and Data type
