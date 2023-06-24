@@ -1,8 +1,13 @@
-// hoisting
-console.log(age);
-var age=20;
+//var , let , const
+//========================
+print();
+function print(){
+    var x = 10;
+    console.log(x);
 
-// Cause JS code script code Runs Top to Bottom
-
-console.log(x);
-let x=50;
+    if(true){
+        var x=20;
+        console.log(x);
+    }
+    console.log(x);
+}
