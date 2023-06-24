@@ -7,5 +7,8 @@ let y=3;
 // let isNotEqual=x!=y;
 // console.log(isNotEqual);
 
-let isLessThan= x<y;
-console.log(isLessThan);
+// let isLessThan= x<y;
+// console.log(isLessThan);
+
+let isGreaterThan = x>y;
+console.log(isGreaterThan);
