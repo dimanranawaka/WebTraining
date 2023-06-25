@@ -7,5 +7,6 @@ console.log(cart);
 //splice(start index(required),(delete count(Optional)))
 //shift()
 //pop()
-cart.splice(1,2);
+// cart.splice(1,2);
+cart.shift();
 console.log(cart);
