@@ -1,4 +1,4 @@
 let cart = ['Apple','Mango','Banana'];
 //push() , unshift();
-cart.push('Orange'); // Push method add an element as Last
+cart.unshift('Orange'); // unshift() method add an element as First
 console.log(cart);
