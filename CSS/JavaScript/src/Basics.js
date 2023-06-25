@@ -1,5 +1,5 @@
-let arr = ['Dog','Cat','Fish'];
-// for (let decValue of arr) {
-//     console.log(decValue);
-// }
-arr.forEach((data)=>{console.log(data)});
+// break , continue , (return)
+for (let i = 0; i < 10; i++) {
+    console.log(i);
+    if(i===5){break;}
+}
