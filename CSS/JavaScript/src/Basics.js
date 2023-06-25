@@ -1,10 +1,6 @@
-let cart = ['Apple','Mango','Banana'];
-let animal=['Dog','Cat'];
+let numbers = [1,2,3];
 
-// cart.forEach(function (data){
-//     console.log(data);
-// });
-
-cart.forEach((data)=>{
-    console.log(data);
+let dataSet = numbers.map(function (temp) {
+   return temp+2;
 });
+console.log(dataSet);
