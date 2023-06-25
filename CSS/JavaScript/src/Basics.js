@@ -1,5 +1,6 @@
-let numbers = [1,2,3];
+let numbers = [1,2,3,4,5,6,7,8,9,10];
 
-let dataSet = numbers.map(temp=>(temp+2));
-
-console.log(dataSet);
+let oddNumbers=numbers.filter(function (data){
+    return data % 2 !==0;
+})
+console.log(oddNumbers);
