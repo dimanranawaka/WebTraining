@@ -1,6 +1,12 @@
-let age=20;
-if(age>=18){
-    console.log('Eligible for this movies');
-}else{
-    console.log("To Small For the movies");
+let marks=90;
+if(marks>=75){
+    console.log('A');
+}else if(marks>=65){
+    console.log("B");
+}else if(marks>=55){
+    console.log("C");
+}else if(marks>=35){
+    console.log("S");
+}else {
+    console.log("Fail");
 }
