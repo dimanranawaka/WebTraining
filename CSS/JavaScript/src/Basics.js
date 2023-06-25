@@ -1,4 +1,4 @@
-function calc(num1,num2){
+let calc=function(num1,num2){
     let total1=num1+num2;
     console.log(total1);
 }
