@@ -9,5 +9,6 @@ console.log(cart);
 //pop()
 // cart.splice(1,2);
 // cart.shift();
-cart.pop();
+let x=cart.pop(); // remove and return element
 console.log(cart);
+console.log(x);
