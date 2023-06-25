@@ -1,4 +1,4 @@
-let calc=(num1,num2)=>{ // Arrow Functions
+let calc=function (num1,num2){ // Expression based Anonymous Functions
     let total1=num1+num2;
     console.log(total1);
 }
