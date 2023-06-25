@@ -8,5 +8,6 @@ console.log(cart);
 //shift()
 //pop()
 // cart.splice(1,2);
-cart.shift();
+// cart.shift();
+cart.pop();
 console.log(cart);
