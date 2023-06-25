@@ -1,5 +1,5 @@
 let counter = 0;
-while(counter<10){
+do{
     console.log("Hello : "+(counter+1));
     counter++;
-}
+}while(counter<10);
