@@ -15,3 +15,9 @@ divEl1.addEventListener('mousemove',(e)=>{
     console.log('X :'+x);
     console.log('Y :'+y);
 });
+window.addEventListener('mousemove',(e)=>{
+    let x=e.clientX;
+    let y=e.clientY;
+    console.log('X :'+x);
+    console.log('Y :'+y);
+});
