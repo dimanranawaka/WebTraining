@@ -8,3 +8,8 @@ divEl1.addEventListener('mouseover',()=>{
 divEl1.addEventListener('mouseout',()=>{
     divEl1.style.backgroundColor='red';
 });
+
+divEl1.addEventListener('mousemove',(e)=>{
+    let x=e.clientX;
+    console.log(x);
+});
