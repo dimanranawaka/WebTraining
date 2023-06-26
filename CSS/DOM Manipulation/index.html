@@ -5,17 +5,11 @@
     <title>Title</title>
 </head>
 <body>
-    <div id="container">
-        <p>Hello Team!</p>
-        <button id="myButton">Click me</button>
-    </div>
-    <script>
-       let btnData = document.getElementById('myButton');
-       btnData.addEventListener('click',function () {
-           let para = document.querySelector('p');
-           para.style.fontSize='25px';
-           para.style.color='red';
-       })
-    </script>
+    <form id="student-form">
+        <input type="text" name="fullName" id="full-name" required>
+        <input type="email" name="email" id="email" required>
+        <button type="submit">Save Data</button>
+    </form>
+    <script src="Main.js"></script>
 </body>
 </html>
