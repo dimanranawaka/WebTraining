@@ -5,4 +5,5 @@ form.addEventListener('submit',function (event) {
     let emailEl = form.elements['email'];
     console.log("Full Name : "+nameEl.value);
     console.log("email : "+emailEl.value);
+    form.reset();
 })
