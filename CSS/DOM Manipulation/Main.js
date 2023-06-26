@@ -3,4 +3,8 @@
 let divEl1 = document.getElementById('my-div');
 divEl1.addEventListener('mouseover',()=>{
     divEl1.style.backgroundColor='green';
-})
+});
+
+divEl1.addEventListener('mouseout',()=>{
+    divEl1.style.backgroundColor='red';
+});
