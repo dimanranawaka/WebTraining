@@ -6,7 +6,19 @@
 
 </head>
 <body>
-    <input type="text" id="input-element">
-    <script src="Main.js"></script>
+    <div id="outer" style="height: 250px;border: 1px solid red;">
+        <div id="inner" style="height: 100px;border: 1px solid green;">
+            <button id="btn">Click Me</button>
+        </div>
+    </div>
+    <script>
+        let outer = document.getElementById('outer');
+        let inner = document.getElementById('inner');
+        let btn = document.getElementById('btn');
+
+        outer.addEventListener('click',()=>{console.log('outer')});
+        inner.addEventListener('click',()=>{console.log('inner')});
+        btn.addEventListener('click',()=>{console.log('btn')});
+    </script>
 </body>
 </html>
