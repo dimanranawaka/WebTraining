@@ -1,9 +1,6 @@
-let form = document.getElementById('student-form');
-form.addEventListener('submit',function (event) {
-    event.preventDefault();
-    let nameEl = form.elements['fullName'];
-    let emailEl = form.elements['email'];
-    console.log("Full Name : "+nameEl.value);
-    console.log("email : "+emailEl.value);
-    form.reset();
+let headingEl = document.getElementById('heading');
+let btnEl = document.querySelector('button');
+
+btnEl.addEventListener('click',() => {
+    headingEl.textContent="This is the new content";
 })
