@@ -6,4 +6,10 @@ document.getElementById('bnt-add').addEventListener('click',()=>{
     item.style.backgroundColor='white';
     myList.appendChild(item);
     counter++;
+});
+document.getElementById('bnt-remove').addEventListener('click',()=>{
+    let tempItem = myList.getElementsByTagName('li');
+    if(tempItem.length>0){
+        myList.removeChild(tempItem[tempItem.length-1]);
+    }
 })
