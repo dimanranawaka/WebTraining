@@ -12,5 +12,6 @@ divEl1.addEventListener('mouseout',()=>{
 divEl1.addEventListener('mousemove',(e)=>{
     let x=e.clientX;
     let y=e.clientY;
-    console.log(x);
+    console.log('X :'+x);
+    console.log('Y :'+y);
 });
