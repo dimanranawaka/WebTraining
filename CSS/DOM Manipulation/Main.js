@@ -1,11 +1,10 @@
-// let headingEl = document.getElementById('heading');
-// let btnEl = document.querySelector('button');
-//
-// btnEl.addEventListener('click',() => {
-//     headingEl.textContent="This is the new content";
-// })
 
+//let divEl1 = document.getElementsByTagName('div')[0];
+let divEl1 = document.getElementById('color-change');
 function change(){
-    let headingEl = document.getElementById('heading');
-    headingEl.textContent="This is the new content";
+   if(divEl1.style.display==='none'){
+       divEl1.style.display='block';
+   }else{
+       divEl1.style.display='none';
+   }
 }
