@@ -1,3 +1,3 @@
-let cart =['Apple','Mango','Banana'];
-let selectedData = cart.sort();
+let cart =[1,2,3];
+let selectedData = cart.indexOf(1);
 console.log(selectedData);
