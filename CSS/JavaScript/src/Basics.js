@@ -2,22 +2,10 @@
 //Literal Syntax , Class Base(ES6) , Constructor Functions
 //=========================
 
-let man = {
-    nic:90,
-    name:'Diman',
-    age:26,
-    fav:['Games','Coding','Traveling'],
-    friendData:{
-        nic:90,
-        name:'Dasun',
-        age:20,
-        fav:['Games','Coding','Traveling'],
-    },
-    doIt:function () {
-        console.log('Fires');
-    }
+function Man(name,address,nic){ //Constructor Based Functions
+    this.name = name;
+    this.address = address;
+    this.nic = nic;
 };
-console.log(man);
-console.log(man.age);
-console.log(man.doIt());
-console.log(man.friendData);
+let data = new Man('Diman','Galle',50);
+console.log(data);
