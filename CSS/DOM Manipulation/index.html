@@ -17,8 +17,8 @@
         let btn = document.getElementById('btn');
 
         outer.addEventListener('click',()=>{console.log('outer')});
-        inner.addEventListener('click',()=>{console.log('inner')});
-        btn.addEventListener('click',()=>{console.log('btn')});
+        inner.addEventListener('click',(e)=>{console.log('inner');e.stopPropagation();});
+        btn.addEventListener('click',(e)=>{console.log('btn');e.stopPropagation();});
     </script>
 </body>
 </html>
